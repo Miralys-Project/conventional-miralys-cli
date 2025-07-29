@@ -1,0 +1,62 @@
+{
+	"name": "conventional-miralys-cli",
+	"version": "1.0.2",
+	"description": "Conventional Miralys CLI is a CLI which allows you to create a project with the correct configuration for Miralys Project if you want to submit it to us.",
+	"keywords": [
+		"cli",
+		"conventional-miralys-cli",
+		"conventional",
+		"eslint",
+		"tsconfig",
+		"docs",
+		"miralys",
+		"miralys-project",
+		"conventional-cli"
+	],
+	"homepage": "https://github.com/Miralys-Project/conventional-miralys-cli#readme",
+	"bugs": {
+		"url": "https://github.com/Miralys-Project/conventional-miralys-cli/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Miralys-Project/conventional-miralys-cli.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Miralys-Project",
+	"type": "module",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"bin": {
+		"miralys-cli": "./dist/index.js"
+	},
+	"scripts": {
+		"build": "tsup",
+		"dev": "tsup --watch"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^19.8.1",
+		"@commitlint/config-angular": "^19.8.1",
+		"@eslint/js": "^9.32.0",
+		"@types/node": "^24.1.0",
+		"chalk": "^5.4.1",
+		"conventional-changelog-cli": "^5.0.0",
+		"esbuild": "^0.25.8",
+		"eslint": "^9.32.0",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-plugin-only-warn": "^1.1.0",
+		"eslint-plugin-turbo": "^2.5.5",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.1.2",
+		"prettier": "^3.6.2",
+		"tsup": "^8.5.0",
+		"typescript": "^5.8.3",
+		"typescript-eslint": "^8.38.0"
+	},
+	"dependencies": {
+		"execa": "^9.6.0",
+		"inquirer": "^12.9.0"
+	}
+}
