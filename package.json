@@ -1,6 +1,6 @@
 {
 	"name": "conventional-miralys-cli",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Conventional Miralys CLI is a CLI which allows you to create a project with the correct configuration for Miralys Project if you want to submit it to us.",
 	"keywords": [
 		"cli",
